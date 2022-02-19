@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: white;
+}
+.container2{
+    height: auto;
+    width: 375px;
+    box-shadow: 0 0 5px gray;
+    background-color: rgb(114, 6, 24);
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-top: 15px;
+    text-align: center;
+}
+p{
+    word-spacing: 0.2rem;
+    line-height: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 50px;
+    
+}
+.box{
+    background-color: white;
+    padding: 20px;
+    border-radius:5px ;
+    box-shadow: 0 5px rgba(0,0,0,0.4);
+    margin: 15px 50px;
+
+}
+.box.purple{
+    background-color: purple;
+}
+.form-control{
+    margin-bottom: 30px;
+    position: relative;
+}
+.form-control small{
+    text-align: right;
+    color: hsl(0, 100%, 74%);
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    opacity: 0;
+
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 5px 13px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+input:focus{
+    border: 1px solid hsl(248, 32%, 49%);
+    outline: none;
+}
+button{
+    background-color: hsl(154, 86%, 36%);
+    display: block;
+    width: 100%;
+    padding: 5px 13px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid hsl(154, 72%, 27%);
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+button:focus{
+    outline: none;
+}
+small{
+    display: block;
+    color: #bbb;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+small a{
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+    text-decoration: none;
+}
